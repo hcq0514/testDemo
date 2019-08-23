@@ -7,8 +7,8 @@ package com.hcq.test.juc;
 public class VolatileTest {
 
     public static void main(String[] args) {
-        test01();
-//        test02();
+//        test01();
+        test02();
     }
 
     /**
@@ -53,8 +53,8 @@ public class VolatileTest {
 }
 
 class Data {
-    int i = 0;
-//    volatile int i = 0;
+//    int i = 0;
+    volatile int i = 0;
 
     void setI(int i) {
         this.i = i;
