@@ -8,7 +8,7 @@ import java.util.concurrent.Semaphore;
  * @author : hcq
  * @date : 2019/8/23
  * semaphore    [ˈseməfɔːr] 信号标; 旗语;
- * 一次只允许几个线程进入
+ * 一次只允许几个线程进入，只有等到semaphore.release()后才能有新线程进入
  */
 
 

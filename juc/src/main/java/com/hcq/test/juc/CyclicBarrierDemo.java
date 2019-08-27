@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 /**
  * @author : hcq
  * @date : 2019/8/23
- * CyclicBarrier 循环栅栏的意思,只有到达这个"栅栏"值时才会执行操作
+ * CyclicBarrier 循环栅栏的意思,只有到达这个"栅栏"值时才会执行操作，等到车里的人坐满了才会开车
  */
 public class CyclicBarrierDemo {
     public static void main(String[] args) {
